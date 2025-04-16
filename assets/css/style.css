@@ -1,6 +1,6 @@
 .page-header {
     border: 2px solid red; /* Highlights the header */
-    background-image: background-image: url('https://CursedCorvid.github.io/CursedCorvid/assets/img/corvid.png');
+    background-image: url('https://CursedCorvid.github.io/CursedCorvid/assets/img/corvid.png');
  !important; /* Replace with your image path */
     background-size: cover; /* Ensures the image covers the header */
     background-position: center; /* Centers the image */
