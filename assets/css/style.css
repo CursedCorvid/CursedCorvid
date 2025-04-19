@@ -15,8 +15,8 @@ body {
     background-size: contain; /* Ensures the background covers the entire page */
     background-repeat: no-repeat;
     background-position: center; /* Centers the background */
-    height: 100vh; /* Ensures the background scales to the full viewport height */
-    width: 100vw; /* full width of viewport
+    height: 50vh; /* Ensures the background scales to the full viewport height */
+    width: 50vw; /* full width of viewport
 }
 
 /* Header styling */
