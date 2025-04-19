@@ -2,12 +2,12 @@
 /* General styling */
 body {
     margin: 0;
-    padding: 0;
+    padding-top: 300px;
     font-family: Arial, sans-serif;
     background-image: url('https://CursedCorvid.github.io/CursedCorvid/assets/img/mondrian.png'); /* Adjust to your preferred background */
     background-size: contain; /* Ensures the background covers the entire page */
     background-repeat: no-repeat;
-    background-position: left; /* Centers the background */
+    background-position: left top 50px; /* Centers the background */
     height: 50vh; /* Ensures the background scales to the full viewport height */
     width: 50vw; /* full width of viewport
 }
