@@ -6,3 +6,56 @@
     background-position: center; /* Centers the image */
     height: 300px; /* Set a height for the header */
 }
+/* General styling */
+body {
+    margin: 0;
+    padding: 0;
+    font-family: Arial, sans-serif;
+    background-image: url('https://CursedCorvid.github.io/CursedCorvid/assets/img/mondrian.png'); /* Adjust to your preferred background */
+    background-size: cover; /* Ensures the background covers the entire page */
+    background-repeat: no-repeat;
+    background-position: center; /* Centers the background */
+}
+
+/* Header styling */
+.page-header {
+    background-image: url('https://CursedCorvid.github.io/CursedCorvid/assets/img/corvid.png');
+    background-size: cover; /* Ensures the image covers the header */
+    background-position: center;
+    height: 300px; /* Set height for the header */
+    text-align: center; /* Centers header content */
+}
+
+/* Main section styling */
+main {
+    display: flex; /* Flexbox layout */
+    justify-content: flex-start; /* Text and videos align */
+    align-items: flex-start; /* Adjust vertical alignment if needed */
+}
+
+/* Section styling */
+section {
+    flex: 1; /* Each section takes equal space */
+    margin: 20px;
+    padding: 20px;
+    background-color: rgba(255, 255, 255, 0.8); /* Adds slight contrast for readability */
+    border-radius: 10px;
+}
+
+/* Video styling */
+video {
+    float: right; /* Moves videos to the right */
+    margin-left: auto;
+    margin-right: 20px; /* Adds spacing */
+}
+
+/* Optional: Styling for headings and text */
+h2 {
+    font-size: 1.5rem;
+    color: #333;
+}
+
+p {
+    font-size: 1rem;
+    color: #555;
+}
