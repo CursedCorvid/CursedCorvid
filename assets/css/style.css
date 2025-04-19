@@ -46,6 +46,12 @@ video {
     margin-right: 20px; /* Adds spacing on the right side*/
     gap: 20px; /* adds spacing between the videos */
 }
+/* individual video styling */
+video {
+        width: 640px; /* adjust video width as needed */
+        height: auto;
+}
+    
 
 /* Optional: Styling for headings and text */
 h2 {
