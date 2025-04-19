@@ -40,8 +40,11 @@ section {
 /* Video styling */
 video {
     float: right; /* Moves videos to the right */
-    margin-left: auto;
-    margin-right: 20px; /* Adds spacing */
+    display: flex;
+    flex-direction: column; /* stacks the videos vertically */
+    align-items: flex-end; /* ensures they align to the right */
+    margin-right: 20px; /* Adds spacing on the right side*/
+    gap: 20px; /* adds spacing between the videos */
 }
 
 /* Optional: Styling for headings and text */
